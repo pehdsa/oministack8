@@ -1,5 +1,5 @@
 .main-container {    
-    max-width: 600px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 50px 0;
 }
@@ -12,4 +12,28 @@
 .main-container > div {
     width: 100%;
     
+}
+.main-container footer {
+    border: 1px solid #eee;
+}
+.main-container footer strong {
+    font-size: 16px;
+    color: #333;
+}
+.main-container footer p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+}
+.main-container button {
+    height: 50px;
+    box-shadow: 0 2px 2px 0 rgba(214,214,214,.6);
+    border-radius: 4px;
+    cursor: pointer;
+    background: #FFF;
+    border: 0;
+}
+.main-container button:hover img {
+    transform: translateY(-3px);
+    transition: transform .2s ease
 }
